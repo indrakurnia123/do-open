@@ -64,5 +64,5 @@ do
 	to_mount+="/drive:DRIVE_$driveinchar,"$j"/ "
 done
 #echo $to_mount
-xfreerdp /v:$ipaddress /u:$ulogin /p:$upass /bpp:$pixel $full +compression +clipboard +auto-reconnect -wallpaper -themes /printer /drive:DOCUMENT_LINUX,/home/$USER/ $to_mount 
+xfreerdp /v:$ipaddress /u:$ulogin /p:$upass /bpp:$pixel $full +compression +clipboard +auto-reconnect +smart-sizing -wallpaper -themes /printer /drive:DOCUMENT_LINUX,/home/$USER/ $to_mount 
 #/app:"C:\Windows\System32\loadibs.cmd"

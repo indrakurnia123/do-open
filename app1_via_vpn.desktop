@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Name=Remote APP1
+GenericName=Network;
+Comment=Remote Desktop to Server APP 1
+Exec=do_open 176.69.45.3 ganti_user ganti_password 15 1300x705 %U
+TryExec=/usr/bin/do_open
+Icon=remote
+Terminal=false
+Type=Application
+Categories=Network;
+Keywords=ibs;ussi;
